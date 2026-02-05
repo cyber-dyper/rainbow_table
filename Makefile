@@ -14,7 +14,7 @@ BIN=MyRainbowTable
 SRC=src/rainbow_table.c
 
 #les varibales pour le dico et le T3C
-DICO?=dic/rockyou_2025_00.txt
+DICO?=dic/dictionnaire.txt
 TABLE=tbl/table.t3c
 
 #Le chemin des hashs a comparer
@@ -48,5 +48,3 @@ lookup: all
 clean:
 	rm -rf $(BIN) "$(TABLE)"
 
-#Lance le shell par defaut
-#CMD ["/bin/bash "]
